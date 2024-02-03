@@ -1,0 +1,1 @@
+// Set up routes for /, homeRoutes and /api, apiRoutes.

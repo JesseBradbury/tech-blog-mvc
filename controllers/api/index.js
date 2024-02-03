@@ -1,0 +1,1 @@
+// Set up routes for all things /api. userRoutes for sign in. Then probably a route for users or blog posts. 

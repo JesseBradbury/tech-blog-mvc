@@ -1,7 +1,9 @@
-{{!-- Main layout for the page, include function to check if the user is logged in, and if they are it displays the log out option at the top of the page in the nav bar. --}}
+{{!-- Main layout for the page, include function to check if the user is logged in, and if they are it displays the log
+out option at the top of the page in the nav bar. --}}
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +11,20 @@
     <link rel="stylesheet" href="/css/jass.css">
     <link rel="stlyesheet" href="/css/style.css">
 </head>
+
 <body>
     <header class="display-flex justify-space-between align-center p-2">
-        <h1>
-            Super Tech Blog
-        </h1>
-        {{#if logged_in}}
         <nav>
-            <button class="btn" id="logout">logout</button>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/dashboard">Dashboard</a></li>
+                <li><a href="/login">Login</a></li>
+            </ul>
+            <h1>{{pageTitle}}</h1>
         </nav>
-        {{/if}}
+
+        {{!-- {{#if logged_in}} --}}
+        {{!-- {{/if}} --}}
     </header>
     <main class="container container-fluid mt-5">
         {{{ body }}}

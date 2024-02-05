@@ -1,11 +1,11 @@
 [
   {
-    "name": "River",
+    "user_name": "River",
     "email": "river@coolguy.com",
     "password": "password12345"
   },
   {
-    "name": "Brittany",
+    "user_name": "Brittany",
     "email": "britt@gmail.com",
     "password": "password12345"
   }
